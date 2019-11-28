@@ -240,7 +240,15 @@ To disable commenting for a specific post, you can add `disable_comments: true` 
 
 ## Create a user
 
-To create a new user, please refer to the [Getting Started]({{< relref "get-started.md#introduce-yourself" >}}) guide.
+If you want to create the first use, please refer to the [Getting Started]({{< relref "get-started.md#introduce-yourself" >}}) guide.
+
+To create another user: 
+
+    hugo new --kind authors authors/firstname-lastname
+
+Then edit the newly created file `content/authors/firstname-lastname/_index.md`. Once you have edited all parameters in the front matter (top of the file), you can simply add content (below the final `---`). If you want to display a photo, upload a picture named `avatar.png` in the `authors/firstname-lastname/` directory and it will appear automatically. 
+
+please refer to the [Getting Started]({{< relref "get-started.md#introduce-yourself" >}}) guide.
 
 ## Create a project
 
@@ -248,7 +256,7 @@ To create a project:
 
     hugo new  --kind project project/my-project-name
 
-Then edit the newly created file `content/project/my-project-name.md`. Either you can link the project to an external project website by setting the `external_link: "http://external-project.com"` variable at the top of the file, or you can add content (below the final `---`) in order to render a project page on your website.
+Then edit the newly created file `content/authors/firstname-lastname/_index.md`. Either you can link the project to an external project website by setting the `external_link: "http://external-project.com"` variable at the top of the file, or you can add content (below the final `---`) in order to render a project page on your website.
 
 ## Create a talk
 
