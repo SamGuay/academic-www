@@ -246,9 +246,7 @@ To create another user:
 
     hugo new --kind authors authors/firstname-lastname
 
-Then edit the newly created file `content/authors/firstname-lastname/_index.md`. Once you have edited all parameters in the front matter (top of the file), you can simply add content (below the final `---`). If you want to display a photo, upload a picture named `avatar.png` in the `authors/firstname-lastname/` directory and it will appear automatically. 
-
-please refer to the [Getting Started]({{< relref "get-started.md#introduce-yourself" >}}) guide.
+Then edit the newly created file `content/authors/firstname-lastname/_index.md`. Once you have edited all parameters in the front matter (top of the file), you can simply add content (below the final `---`). If you want to display another picture than the avatar provided, simply upload a picture and name it `avatar.png` to overwrite the former in the `authors/firstname-lastname/` directory. 
 
 ## Create a project
 
