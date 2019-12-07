@@ -246,7 +246,9 @@ To create an additional user, the following command can be used to create a new 
 
     hugo new --kind authors authors/firstname-lastname
 
-Then edit the newly created file at `content/authors/firstname-lastname/_index.md`. Once you have edited the parameters in the front matter (top of the file), you can add the user's full biography in the body (below the final `---`) using Markdown formatting. You can also upload a square photo for the user to the new `authors/firstname-lastname/` folder and name it `avatar` (in JPEG or PNG format). If you didn't replace the default avatar image in the process, you may wish to delete it from the folder.
+Then edit the newly created file at `content/authors/firstname-lastname/_index.md`. Once you have edited the parameters in the front matter (top of the file), you can add the user's full biography in the body (below the final `---`) using Markdown formatting.
+
+You can also upload a square photo for the user to the new `authors/firstname-lastname/` folder and name it `avatar` (in JPEG or PNG format). If you didn't replace the default avatar image in the process, you may wish to delete it from the folder.
 
 ## Create a project
 
