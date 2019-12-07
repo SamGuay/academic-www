@@ -240,13 +240,13 @@ To disable commenting for a specific post, you can add `disable_comments: true` 
 
 ## Create a user
 
-If you want to create the first use, please refer to the [Getting Started]({{< relref "get-started.md#introduce-yourself" >}}) guide.
+To edit the main user, please refer to the [Getting Started]({{< relref "get-started.md#introduce-yourself" >}}) guide.
 
-To create another user: 
+To create an additional user, the following command can be used to create a new user profile: 
 
     hugo new --kind authors authors/firstname-lastname
 
-Then edit the newly created file `content/authors/firstname-lastname/_index.md`. Once you have edited all parameters in the front matter (top of the file), you can simply add content (below the final `---`). If you want to display another picture than the avatar provided, simply upload a picture and name it `avatar.png` to overwrite the former in the `authors/firstname-lastname/` directory. 
+Then edit the newly created file at `content/authors/firstname-lastname/_index.md`. Once you have edited the parameters in the front matter (top of the file), you can add the user's full biography in the body (below the final `---`) using Markdown formatting. You can also upload a square photo for the user to the new `authors/firstname-lastname/` folder and name it `avatar` (in JPEG or PNG format). If you didn't replace the default avatar image in the process, you may wish to delete it from the folder.
 
 ## Create a project
 
@@ -254,7 +254,7 @@ To create a project:
 
     hugo new  --kind project project/my-project-name
 
-Then edit the newly created file `content/authors/firstname-lastname/_index.md`. Either you can link the project to an external project website by setting the `external_link: "http://external-project.com"` variable at the top of the file, or you can add content (below the final `---`) in order to render a project page on your website.
+Then edit the newly created file `content/project/my-project-name.md`. Either you can link the project to an external project website by setting the `external_link: "http://external-project.com"` variable at the top of the file, or you can add content (below the final `---`) in order to render a project page on your website.
 
 ## Create a talk
 
